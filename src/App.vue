@@ -6,7 +6,7 @@ const locale = ref(zhCN)
 </script>
 
 <template>
-  <a-config-provider
+  <AConfigProvider
     :theme="{
       token: {
         colorPrimary: '#3498db',
@@ -16,5 +16,5 @@ const locale = ref(zhCN)
     :locale="locale"
   >
     <RouterView />
-  </a-config-provider>
+  </AConfigProvider>
 </template>
